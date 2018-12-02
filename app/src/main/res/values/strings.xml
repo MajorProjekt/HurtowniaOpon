@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">HurtowniaOpon</string>
+   <string name="app_klient">WyswietlKlient</string>
+
+
+
     <string name="menu_Klient">Klienci</string>
     <string name="menu_Opony">Opony</string>
     <string name="menu_Zamowienia">Zamowienia</string>
