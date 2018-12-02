@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddKlient"
+    android:background="@drawable/main_gradient">
+
+
+    <TableLayout
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        >
+        <TableRow android:layout_marginHorizontal="100dp"><ImageView android:src="@drawable/ic_person_add_black_24dp" /></TableRow>
+        <TableRow android:layout_marginHorizontal="100dp">
+            <TextView
+                android:text="@string/dodawanie_klienta"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_marginLeft="10dp"
+                android:text="@string/text_Klient_IMIE" />
+            <EditText
+                android:text="@string/podaj_Klient_IMIE" />
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_marginLeft="10dp"
+                android:text="@string/text_Klient_NAZWISKO" />
+            <EditText android:text="@string/podaj_Klient_NAZWISKO"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_marginLeft="10dp"
+                android:text="@string/text_Klient_MIASTO" />
+            <EditText android:text="@string/podaj_Klient_MIASTO"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_marginLeft="10dp"
+                android:text="@string/text_Klient_KODPOCZTOWY" />
+            <EditText android:inputType="textPostalAddress"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_marginLeft="10dp"
+                android:text="@string/text_Klient_ULICA" />
+            <EditText android:text="@string/podaj_Klient_ULICA"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_marginLeft="10dp"
+                android:text="@string/text_Klient_NRDOMU" />
+            <EditText android:text="@string/podaj_Klient_NRDOMU"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_marginLeft="10dp"
+                android:text="@string/text_Klient_NRMIESZKANIA" />
+            <EditText android:text="@string/podaj_Klient_NRMIESZKANIA"
+                />
+        </TableRow>
+    </TableLayout>
+
+
+
+</RelativeLayout>

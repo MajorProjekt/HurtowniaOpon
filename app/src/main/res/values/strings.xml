@@ -1,10 +1,34 @@
 <resources>
     <string name="app_name">HurtowniaOpon</string>
-   <string name="app_klient">WyswietlKlient</string>
-
+    <string name="app_klient">WyswietlKlient</string>
 
 
     <string name="menu_Klient">Klienci</string>
     <string name="menu_Opony">Opony</string>
     <string name="menu_Zamowienia">Zamowienia</string>
+
+
+    <string name="text_Klient_IMIE">Imie: </string>
+    <string name="podaj_Klient_IMIE">Podaj imie</string>
+
+    <string name="text_Klient_NAZWISKO">Nazwisko: </string>
+    <string name="podaj_Klient_NAZWISKO">Podaj nazwisko</string>
+
+    <string name="text_Klient_MIASTO">Miasto:</string>
+    <string name="podaj_Klient_MIASTO">Podaj miasto</string>
+
+    <string name="text_Klient_KODPOCZTOWY">Kod pocztowy</string>
+
+
+    <string name="text_Klient_ULICA">Ulica: </string>
+    <string name="podaj_Klient_ULICA">Podaj ulice</string>
+
+    <string name="text_Klient_NRDOMU">Numer domu:</string>
+    <string name="podaj_Klient_NRDOMU">Podaj numer domu</string>
+
+    <string name="text_Klient_NRMIESZKANIA">Numer mieszkania:</string>
+    <string name="podaj_Klient_NRMIESZKANIA">Podaj numer mieszkania</string>
+    <string name="dodawanie_klienta">Dodawanie Klienta</string>
+
+
 </resources>
